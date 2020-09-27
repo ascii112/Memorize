@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0896782520EF0E00E3BDE9 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0896772520EF0E00E3BDE9 /* Array+Only.swift */; };
 		5CC2DB1924F905F9006ACAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2DB1824F905F9006ACAF0 /* AppDelegate.swift */; };
 		5CC2DB1B24F905F9006ACAF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2DB1A24F905F9006ACAF0 /* SceneDelegate.swift */; };
 		5CC2DB1D24F905F9006ACAF0 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2DB1C24F905F9006ACAF0 /* EmojiMemoryGameView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0896772520EF0E00E3BDE9 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		5CC2DB1524F905F9006ACAF0 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC2DB1824F905F9006ACAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CC2DB1A24F905F9006ACAF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				5CC2DB2324F905FD006ACAF0 /* LaunchScreen.storyboard */,
 				5CC2DB2624F905FD006ACAF0 /* Info.plist */,
 				5CC2DB2024F905FD006ACAF0 /* Preview Content */,
+				5C0896772520EF0E00E3BDE9 /* Array+Only.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -117,7 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = ascii112;
 				TargetAttributes = {
 					5CC2DB1424F905F9006ACAF0 = {
@@ -164,6 +167,7 @@
 				5CC2DB1924F905F9006ACAF0 /* AppDelegate.swift in Sources */,
 				5CC2DB1B24F905F9006ACAF0 /* SceneDelegate.swift in Sources */,
 				5CC2DB2F24FA4A95006ACAF0 /* MemoryGame.swift in Sources */,
+				5C0896782520EF0E00E3BDE9 /* Array+Only.swift in Sources */,
 				5CC2DB1D24F905F9006ACAF0 /* EmojiMemoryGameView.swift in Sources */,
 				5CC2DB3124FA4ED7006ACAF0 /* EmojiMemoryGame.swift in Sources */,
 				5CC2DB39250787CF006ACAF0 /* Array+Identifiable.swift in Sources */,
@@ -212,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -272,6 +277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
